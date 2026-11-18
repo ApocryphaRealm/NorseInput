@@ -1,0 +1,16 @@
+-- NorseInput - one list of rebindable controls (header-only library + data). Target input_test: the offline test.
+set_project("NorseInput")
+set_version("0.1.0")
+set_xmakever("2.8.0")
+add_rules("mode.release")
+set_defaultmode("release")
+set_languages("c++20")
+set_runtimes("MD")
+add_defines("WIN32_LEAN_AND_MEAN", "NOMINMAX", "UNICODE", "_UNICODE")
+add_cxflags("/EHsc", "/W4", "/permissive-", "/utf-8", {force = true})
+
+target("input_test")
+    set_kind("binary")
+    add_files("tools/input_test.cpp")
+    add_includedirs("include")
+    add_links("user32")
