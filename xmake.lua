@@ -1,6 +1,6 @@
 -- NorseInput - one list of rebindable controls (header-only library + data). Target input_test: the offline test.
 set_project("NorseInput")
-set_version("0.1.0")
+set_version("1.0.0")
 set_xmakever("2.8.0")
 add_rules("mode.release")
 set_defaultmode("release")
