@@ -31,3 +31,7 @@ NorseRealtimeNative 0.5.x's own; keyboard and mouse are new).
 0.1.0 tested offline and in game (TEST-RESULT-0.1.0.txt: real F / left click / Q presses drove the power shot, the bow
 draw and release, and the lock-on). Not yet: a rebinding page (NMMF), the moveset's held / double inputs (moves name
 inputs "light" / "power" today), dodge / jump / camera controls (still read directly by NorseRealtimeNative).
+
+## Licence
+
+GPL-3.0-or-later (see LICENSE).
